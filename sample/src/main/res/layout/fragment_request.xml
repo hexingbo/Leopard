@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="基本请求:"
+            android:padding="5dp"
+            android:layout_marginLeft="5dp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="-10dp"
+
+            android:weightSum="3">
+
+            <TextView
+                android:id="@+id/post_tv"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:background="@color/colorAccent"
+                android:text="POST" />
+
+            <TextView
+                android:id="@+id/post_json_tv"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:background="@color/colorAccent"
+                android:text="POST JSON"/>
+
+            <TextView
+                android:id="@+id/post_header_tv"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:background="@color/colorAccent"
+                android:text="POST带Heander" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="-10dp"
+            android:weightSum="3">
+
+            <TextView
+                android:id="@+id/get_tv"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:background="@color/colorAccent"
+                android:text="GET" />
+
+            <TextView
+                android:id="@+id/get_json_tv"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:background="@color/colorAccent"
+                android:text="GET JSON"/>
+
+            <TextView
+                android:id="@+id/get_header_tv"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:background="@color/colorAccent"
+                android:text="GET 带Heander" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="回调对象类型举例:"
+            android:padding="5dp"
+            android:layout_marginLeft="5dp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="-10dp"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/get_obj_tv"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:background="@color/colorAccent"
+                android:text="GET 回调举例" />
+
+            <TextView
+                android:id="@+id/post_obj_tv"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:background="@color/colorAccent"
+                android:text="POST 回调举例"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="缓存使用举例:"
+            android:padding="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="-10dp"
+            />
+
+        <TextView
+            android:id="@+id/cache_tv"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:background="@color/colorAccent"
+            android:text="缓存测试入口" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="响应信息:"
+            android:padding="5dp"
+            android:layout_marginLeft="5dp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="请求状态"
+                android:background="#ccc"
+                />
+            <TextView
+                android:id="@+id/request_state"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="---"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="请求头"
+                android:background="#ccc"
+                />
+            <TextView
+                android:id="@+id/request_header"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="---"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="响应数据"
+                android:background="#ccc"
+                />
+            <TextView
+                android:id="@+id/response_data"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="---"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="响应头"
+                android:background="#ccc"
+                />
+            <TextView
+                android:id="@+id/response_header"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="---"
+                />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

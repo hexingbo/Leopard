@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\hexingbo\Leopard-master\sample\build\intermediates\exploded-aar\io.reactivex\rxandroid\1.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="d4c4b83de2f6412072d2a29b1b7a5b03edaad5ff">
+        <dex dex="D:\hexingbo\Leopard-master\sample\build\intermediates\pre-dexed\debug\io.reactivex-rxandroid-1.1.0_ec16be7d498433d62ca741a03b9f6286573a2e69.jar" />
+    </item>
+    <item
+        jar="D:\hexingbo\Leopard-master\sample\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="D:\hexingbo\Leopard-master\sample\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-23.4.0_6659818e6e83dca356ecbf23f2b741d3e3098a5b.jar" />
+    </item>
+    <item
+        jar="D:\hexingbo\Leopard-master\sample\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="D:\hexingbo\Leopard-master\sample\build\intermediates\pre-dexed\debug\internal_impl-23.4.0_e1cc0ade95248dca96d9d9ecf02b2a740786668f.jar" />
+    </item>
+    <item
+        jar="D:\hexingbo\Leopard-master\sample\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="D:\hexingbo\Leopard-master\sample\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.4.0_89b4f04b8744d1fe7313cfc0650dd33f50e8214d.jar" />
+    </item>
+    <item
+        jar="D:\hexingbo\Leopard-master\sample\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="D:\hexingbo\Leopard-master\sample\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.4.0_b9c39b635405fe41a515b54288bf44b76b2e0921.jar" />
+    </item>
+    <item
+        jar="D:\hexingbo\Leopard-master\sample\build\intermediates\exploded-aar\com.android.support\design\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="D:\hexingbo\Leopard-master\sample\build\intermediates\pre-dexed\debug\com.android.support-design-23.4.0_fe37c14d8540abb336b574f7cebd309e9896ef19.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.0.0-beta4\739e00dea1f0ac04fdb9b6160d667e23cc50a791\retrofit-2.0.0-beta4.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="739e00dea1f0ac04fdb9b6160d667e23cc50a791">
+        <dex dex="D:\hexingbo\Leopard-master\sample\build\intermediates\pre-dexed\debug\retrofit-2.0.0-beta4_ff5e801f6eef544a1408f5132c8f2c7b6c1a5980.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.1.2\7052283359001bb108753cb0583a887d3bf94c82\okhttp-3.1.2.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="7052283359001bb108753cb0583a887d3bf94c82">
+        <dex dex="D:\hexingbo\Leopard-master\sample\build\intermediates\pre-dexed\debug\okhttp-3.1.2_df8be8f3d92fa619ccf539d98de4049254089836.jar" />
+    </item>
+    <item
+        jar="D:\hexingbo\Leopard-master\sample\build\intermediates\exploded-aar\cn.yuancloud.app\leopardkit\1.6.2\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="73fb90f973d8c25e451b9dd9f3d58b44f29be40e">
+        <dex dex="D:\hexingbo\Leopard-master\sample\build\intermediates\pre-dexed\debug\cn.yuancloud.app-leopardkit-1.6.2_06a97bbd1614b7c20931fa68f9aaf81f8884a9b5.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\de.greenrobot\greendao\2.1.0\9414c1d4578673dac83a23119009624fd695726d\greendao-2.1.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="9414c1d4578673dac83a23119009624fd695726d">
+        <dex dex="D:\hexingbo\Leopard-master\sample\build\intermediates\pre-dexed\debug\greendao-2.1.0_e7e91384929775aeec5425f40dce7853f834515c.jar" />
+    </item>
+    <item
+        jar="D:\hexingbo\Leopard-master\sample\build\intermediates\exploded-aar\com.trello\rxlifecycle\0.6.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="3a98a50c56978d02c0651d12f5a26c3e7c31c397">
+        <dex dex="D:\hexingbo\Leopard-master\sample\build\intermediates\pre-dexed\debug\com.trello-rxlifecycle-0.6.1_8e04d2e54cb07b165256e7dc1a065e6fc86fe637.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\logging-interceptor\3.1.2\a1b4b8e4dc5f7bfa9186e79f9e267c1539a847b0\logging-interceptor-3.1.2.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="a1b4b8e4dc5f7bfa9186e79f9e267c1539a847b0">
+        <dex dex="D:\hexingbo\Leopard-master\sample\build\intermediates\pre-dexed\debug\logging-interceptor-3.1.2_30b270bb378363c5ded28421fff9202428fed071.jar" />
+    </item>
+    <item
+        jar="D:\hexingbo\Leopard-master\sample\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="D:\hexingbo\Leopard-master\sample\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-23.4.0_408f2506abf4adccc7fdeddc95006e096b1cdf32.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.6.0\98476622f10715998eacf9240d6b479f12c66143\okio-1.6.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="D:\hexingbo\Leopard-master\sample\build\intermediates\pre-dexed\debug\okio-1.6.0_c410569bd3ae660f2a7eceb3af69efc833b46b70.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\adapter-rxjava\2.0.0-beta4\bd49baf667542c7d06f71e598bdee7fe57272013\adapter-rxjava-2.0.0-beta4.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="bd49baf667542c7d06f71e598bdee7fe57272013">
+        <dex dex="D:\hexingbo\Leopard-master\sample\build\intermediates\pre-dexed\debug\adapter-rxjava-2.0.0-beta4_e23037635433fe189e1b58909ce389aa7d3d465e.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="D:\hexingbo\Leopard-master\sample\build\intermediates\pre-dexed\debug\support-annotations-23.4.0_c9fae43cda2e1c04b2ab0de43a8f148b5b1a92fa.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\io.reactivex\rxjava\1.1.4\3cc424c6eda381bf4aee40dc3ccdecc27b2106aa\rxjava-1.1.4.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="3cc424c6eda381bf4aee40dc3ccdecc27b2106aa">
+        <dex dex="D:\hexingbo\Leopard-master\sample\build\intermediates\pre-dexed\debug\rxjava-1.1.4_d71df5c18c888266d763ed675271b5b71efb618e.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-gson\2.0.0-beta4\de5935a367ba5e343e9df786ac8fc0c7d52b5f0c\converter-gson-2.0.0-beta4.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="de5935a367ba5e343e9df786ac8fc0c7d52b5f0c">
+        <dex dex="D:\hexingbo\Leopard-master\sample\build\intermediates\pre-dexed\debug\converter-gson-2.0.0-beta4_c6e97f806b29334717938c473af852cff524d6ae.jar" />
+    </item>
+    <item
+        jar="D:\hexingbo\Leopard-master\sample\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="D:\hexingbo\Leopard-master\sample\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-23.4.0_21e775173e17999ce95c701f54ab9261c778543b.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.5\686c608d1805b6d4d425ec4459e88164ffc85870\gson-2.5.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="686c608d1805b6d4d425ec4459e88164ffc85870">
+        <dex dex="D:\hexingbo\Leopard-master\sample\build\intermediates\pre-dexed\debug\gson-2.5_d1775ad48bbb63d88951f4da76a944051360b30e.jar" />
+    </item>
+    <item
+        jar="D:\hexingbo\Leopard-master\sample\build\intermediates\exploded-aar\com.trello\rxlifecycle-components\0.6.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="5c90d2e1f0959b6e1f312b9f53049a342f0e82df">
+        <dex dex="D:\hexingbo\Leopard-master\sample\build\intermediates\pre-dexed\debug\com.trello-rxlifecycle-components-0.6.1_e18eaa5a6ec053f3576117b5664c097a8fe71c8b.jar" />
+    </item>
+    <item
+        jar="D:\hexingbo\Leopard-master\sample\build\intermediates\exploded-aar\com.jakewharton.rxbinding\rxbinding\0.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="ffc09f4e5bdebe068e5101f587dadc42b60fbfe4">
+        <dex dex="D:\hexingbo\Leopard-master\sample\build\intermediates\pre-dexed\debug\com.jakewharton.rxbinding-rxbinding-0.4.0_d98a79c4a72971d60f9d254db71c30902c11d700.jar" />
+    </item>
+
+</items>

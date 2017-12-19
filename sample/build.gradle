@@ -1,0 +1,65 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.3"
+
+    defaultConfig {
+        applicationId "cn.yuan.leopard"
+        minSdkVersion 15
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+repositories {
+    maven { url = 'https://dl.bintray.com/yuancloud/maven/' }
+
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:23.1.1'
+    compile 'com.android.support:design:23.4.0'
+
+    //leopard
+//    compile project(':leopardkit')
+    // 1.0 - 1.1 提供基本请求、下载、上传功能
+    // 1.2 增加在线与离线缓存功能，支持Post与get，详情使用看demo
+
+    // 1.3 :
+    //1、添加下载任务限制，入口addtask返回是否添加任务成功 DWONLOAD
+    //2、修复自定义下载路径不能自动创建路径bug
+    //3、添加网络突然中断或者没有网络的时候，下载暂停并且进行回掉
+    //4、优化Leopard入口初始化，init只针对leopard工具初始化，如果需要进行请求，在初始化后调用bindServer进行绑定主机域名
+//    compile 'cn.yuancloud.app:leopardkit:1.3'
+
+    // 1.4 :
+    // 1、修改上传与下载回调逻辑，优化性能，减少回调造成卡顿
+    // 2、允许上传下载进行手动close
+    // 3、上传逻辑独立抽成UploadHelper,代理完成上传逻辑
+    // 4、下载逻辑独立抽成DownloadHelper,代理完成下载逻辑
+//    compile 'cn.yuancloud.app:leopardkit:1.4'
+
+    //..
+
+    // 1.6 :
+//    1.去除LeopardHttp初始化，使用通过bindServer域名即可
+//    2.增加回调对象类型，回调HttpRespondObjectResult即可
+//    3.增加DownLoadManager获取未下载完成列表入口
+//    4.修复部分bug
+//    5.完善sample请求类型
+
+    // 1.6.2 :
+    // 1、修复当下载链接文件异常导致DownLoadTask越界问题
+    // 2、修复URL有效响应，下载文件异常时程序崩溃问题
+    compile 'cn.yuancloud.app:leopardkit:1.6.2'
+}

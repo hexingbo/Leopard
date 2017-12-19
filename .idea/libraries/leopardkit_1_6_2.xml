@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="leopardkit-1.6.2">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/sample/build/intermediates/exploded-aar/cn.yuancloud.app/leopardkit/1.6.2/res" />
+      <root url="jar://$PROJECT_DIR$/sample/build/intermediates/exploded-aar/cn.yuancloud.app/leopardkit/1.6.2/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/cn.yuancloud.app/leopardkit/1.6.2/13b2948c7eaf9438cf5e74d1032f826034002ab5/leopardkit-1.6.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
